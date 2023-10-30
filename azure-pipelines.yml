@@ -35,5 +35,5 @@ steps:
     containerRegistry: 'sbcr1Connection1'
     repository: 'SpringBootRepo'
     command: 'push'
-    tags: 'latest'
-    command: 'push'
+    tags: 'Latest'
+
