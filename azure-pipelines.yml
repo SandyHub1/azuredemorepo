@@ -36,3 +36,4 @@ steps:
     repository: 'SpringBootRepo'
     command: 'push'
     tags: 'latest'
+    command: 'push'
