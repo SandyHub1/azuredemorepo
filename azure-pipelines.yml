@@ -33,7 +33,7 @@ steps:
   displayName: Push Docker image
   inputs:
     containerRegistry: 'sbcr1Connection1'
-    repository: 'SpringBootRepo'
+    repository: 'SpringBootRepo1'
     command: 'push'
     tags: 'Latest'
 
