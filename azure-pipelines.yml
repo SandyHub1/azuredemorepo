@@ -33,7 +33,6 @@ steps:
   displayName: Push Docker image
   inputs:
     containerRegistry: 'acr1d'
-    repository: 'SpringBootRepo1'
+    repository: 'acr1d'
     command: 'push'
-    tags: 'Latest'
-
+    tags: 'latest'
