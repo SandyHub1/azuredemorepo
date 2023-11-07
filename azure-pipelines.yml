@@ -33,6 +33,7 @@ steps:
   displayName: Push Docker image
   inputs:
     containerRegistry: 'acr1d'
+    command: 'Connect-AzContainerRegistry'
     repository: 'acr1d'
     command: 'push'
     tags: 'latest'
